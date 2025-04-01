@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import BirthdayCard from "./BirthdayCard";
 import { Button } from "@/components/ui/button";
-import { PlusCircle, Search } from "lucide-react";
+import { PlusCircle, Search, Calendar } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Link } from "react-router-dom";
 import { Birthday } from "@/types/birthday";

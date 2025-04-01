@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import { Birthday } from "@/types/birthday";
 import { Link } from "react-router-dom";
+import { cn } from "@/lib/utils";
 
 interface BirthdayCardProps {
   birthday: Birthday;
